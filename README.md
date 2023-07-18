@@ -64,7 +64,7 @@ To use this script as user data during the launch of an EC2 instance via the AWS
 (attached the IAM role created that allow EC2 instance to download files from S3)
 
 
-7. In the "User data" section, select "As text" and paste the content of the `jupiter_site_deployment.sh` script.
+7. In the "User data" section, select "As text" and paste the content of the `script-s3.sh` script.
 
 8. Proceed with the rest of the EC2 instance configuration, including setting up security groups, adding storage, and configuring any other settings required for your use case.
 
